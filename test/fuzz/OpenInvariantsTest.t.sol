@@ -1,9 +1,10 @@
+
+// //SPDX-License-Identifier: MIT
+// pragma solidity ^0.8.20;
 // // The two invariants we can have a look on are : 
 // // 1. The value of the stablecoin is always and always less than the collateral deposited.
 // // 2. The view functions should not revert.
 
-// //SPDX-License-Identifier: MIT
-// pragma solidity ^0.8.20;
 
 // import {Test, console} from "forge-std/Test.sol";
 // import {DecentralizedStableCoin} from "../../src/DecentralizedStablecoin.sol";
